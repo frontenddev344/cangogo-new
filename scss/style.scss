@@ -1,7 +1,6 @@
 /*global start*/
 @import "variables";
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600;1,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
@@ -420,6 +419,7 @@ section.banner.luxury-hotels {
     font-size: 48px;
   }
 }
+
 .banner-discri {
   padding: 50px 0 0 0;
   & .banner-discri-text {
@@ -502,6 +502,9 @@ section.banner.unique {
   background: url(../img/Unique-Stays.png) no-repeat;
   background-size: cover;
   background-position: center;
+}
+section.banner.luxury-hotels.abt-bnr{
+background: url(../img/abt-img.jpg);
 }
 .cards .author p span {
   font-weight: bold;
