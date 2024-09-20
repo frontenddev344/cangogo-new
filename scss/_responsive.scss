@@ -1,180 +1,162 @@
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
     .banner {
-        height: auto;
-
+      height: auto;
     }
     footer .copyright .row {
-        flex-direction: column-reverse;
-        justify-content: center;
+      flex-direction: column-reverse;
+      justify-content: center;
     }
     footer .copyright .row .col-md-6 {
-        width: 100%;
+      width: 100%;
     }
     footer .policey ul {
-        justify-content: center;
+      justify-content: center;
     }
     .copyrights {
-        text-align: center;
+      text-align: center;
     }
-}
-
-@media screen and (max-width:991px) {
+  }
+  @media screen and (max-width: 991px) {
     .site-nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 300px;
-        background: linear-gradient(13deg, #4c9ef1 0%, #4c9ef1 50%, rgb(0 0 0) 100%);
-        transition: .4s cubic-bezier(0, 0, 0.13, 0.61);
-        transform: translateX(-100%);
-        z-index: 9999;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 300px;
+      background: linear-gradient(
+        13deg,
+        #4c9ef1 0%,
+        #4c9ef1 50%,
+        rgb(0 0 0) 100%
+      );
+      transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
+      transform: translateX(-100%);
+      z-index: 9999;
     }
-
     .site-header .site-nav ul {
-        display: block;
-        margin-top: 40px
+      display: block;
+      margin-top: 40px;
     }
-
     .site-header .site-nav ul li {
-        border-bottom: 1px solid #fff
+      border-bottom: 1px solid #fff;
     }
-
     .site-header .site-nav ul li a {
-        color: #fff;
+      color: #fff;
     }
-
     .site-header .menu-toggle {
-        display: block;
+      display: block;
     }
-
     .site-header .closed-menu {
-        font-size: 40px;
-        color: #fff;
-        position: absolute;
-        top: -5px;
-        right: 15px;
-        display: inline-block !important;
+      font-size: 40px;
+      color: #fff;
+      position: absolute;
+      top: -5px;
+      right: 15px;
+      display: inline-block !important;
     }
-
     .site-header .closed-menu a {
-        color: #fff;
+      color: #fff;
     }
-
     .toggle .site-nav {
-        transform: translateX(0)
+      transform: translateX(0);
     }
-
     .luxury-hotel.seconds {
-        margin-top: 20px;
+      margin-top: 20px;
     }
-
     .author {
-        padding: 20px 0;
+      padding: 20px 0;
     }
-
     .hotel-btn {
-        padding: 0 0 20px 0;
+      padding: 0 0 20px 0;
     }
-
     .content .content-details {
-        top: 50%;
-        left: 50%;
-        opacity: 1;
+      top: 50%;
+      left: 50%;
+      opacity: 1;
     }
-
     .content .content-overlay {
-        opacity: 1;
+      opacity: 1;
     }
-
     .content .content-overlay {
-        background: rgb(0 0 0 / 31%);
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        opacity: 0;
-        -webkit-transition: all 0.4s ease-in-out 0s;
-        -moz-transition: all 0.4s ease-in-out 0s;
-        transition: all 0.4s ease-in-out 0s;
+      background: rgb(0 0 0 / 31%);
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
     }
-
     .content-details h3 {
-
-        font-size: 16px;
+      font-size: 16px;
     }
-
     body#tips .cards .romaner-card-inner .row .col-md-6:nth-child(3),
     body#tips .cards .romaner-card-inner .row .col-md-6:last-child {
-        margin-top: 40px;
+      margin-top: 40px;
     }
     .why-choose .col-md-6 {
-        margin: 10px 0;
+      margin: 10px 0;
     }
     footer .Useful_link ul li a {
-        padding: 6px 20px;
+      padding: 6px 20px;
     }
-    .contact-main .row{
-        flex-direction: column-reverse;
+    .contact-main .row {
+      flex-direction: column-reverse;
     }
-    .contact-main .row .col-md-6{
-        width: 100%;
+    .contact-main .row .col-md-6 {
+      width: 100%;
     }
     .contact-form {
-        margin-bottom: 30px !important;
+      margin-bottom: 30px !important;
     }
     .contact-form button {
-        padding: 10px 40px;
+      padding: 10px 40px;
     }
     footer .policey ul {
-        flex-wrap: wrap;
-        gap: 8px;
+      flex-wrap: wrap;
+      gap: 8px;
     }
-}
-
-@media (max-width:767px) {
+  }
+  @media (max-width: 767px) {
     body#tips .cards .romaner-card-inner .row .col-md-6:nth-child(2) {
-        margin-top: 40px;
+      margin-top: 40px;
     }
-
     footer {
-        text-align: center;
-
-        & .Useful_link {
-            margin-top: 20px;
-        }
+      text-align: center;
+  
+      & .Useful_link {
+        margin-top: 20px;
+      }
     }
-
     .copyright .row {
-        flex-direction: column-reverse;
+      flex-direction: column-reverse;
     }
-
     footer .policey ul {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
-
     .policey {
-        text-align: center;
+      text-align: center;
     }
-
     footer .copyrights p {
-        text-align: center;
+      text-align: center;
     }
     .Useful_link ul {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
     }
     .site-heading h2 {
-        font-size: 28px;
-        margin-bottom: 20px;
+      font-size: 28px;
+      margin-bottom: 20px;
     }
     footer .policey ul {
-        gap: 8px;
+      gap: 8px;
     }
-}
+  }
+  
