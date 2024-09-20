@@ -59,6 +59,7 @@ html {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
   }
 
   & .site-logo img {
@@ -560,16 +561,6 @@ body#tips .romaner-card-inner {
 body#tips .cards .romaner-card-inner .row {
   align-items: normal;
 }
-// section.banner.luxury-hotels.todo {
-//   background: url(../img/todo.jpeg) no-repeat;
-//   background-position: center;
-//   background-size: cover;
-// }
-// section.banner.luxury-hotels.tips {
-//   background: url(../img/tips.jpeg) no-repeat;
-//   background-position: center;
-//   background-size: cover;
-// }
 .com-inr {
   margin-top: 32px;
 }
@@ -959,6 +950,7 @@ footer .policey ul {
 .copyrights {
   text-align: center;
 }
+
 @media screen and (max-width: 425px) {
   h6.heading_main {
     font-size: 20px !important;
